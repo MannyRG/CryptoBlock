@@ -41,7 +41,7 @@ const Base = () => {
 
      const fetchData= async()=>{
         try {
-            const url="http://localhost:8000/"
+            const url="https://cryptoblock-backend.herokuapp.com/"
             const getCrypto = await fetch(url, {
                 method: 'Get',
                 headers: {

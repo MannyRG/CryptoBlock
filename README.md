@@ -1,5 +1,5 @@
 # CryptoBlock
-![alt text](https://github.com/MannyRG/CryptoBlock/site.jpeg?raw=true)
+![alt text](https://github.com/MannyRG/CryptoBlock/blob/main/site.jpeg?raw=true)
 
 
 CryptoBlock is a Site/project to help those who are intrested in Cryptocurencys to find and see the favorite crypto.

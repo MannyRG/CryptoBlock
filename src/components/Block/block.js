@@ -79,6 +79,7 @@ const Base = () => {
     }
     return (
         <B.Conatiner>
+            <B.HeroCointainer>
             <B.Hero>
                 <B.HeroBlock>
 
@@ -108,6 +109,7 @@ const Base = () => {
                         <B.HeroImg src={World}/>
                     </B.HeroImgBlock> */}
             </B.Hero>
+            </B.HeroCointainer>
 
             {/* Chart Block width Data */}
             <B.ChartBlock>

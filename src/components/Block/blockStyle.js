@@ -15,9 +15,9 @@ export const ChartBlock = styled.div`
 `;
 
 
-export const Lable= styled.span`
+export const Lable= styled.div`
     display:inline-block;
-   
+
     ${props =>props.hash && css`
         display: flex;
         align-items: center;
@@ -51,6 +51,8 @@ export const LableRow= styled.div`
     display: grid;
     grid-gap: 2px;
     box-sizing:border-box;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
     ${props =>props.NM && css`
     grid-template-columns: 80px 180px;
     width: 100%;
@@ -212,7 +214,14 @@ export const Reset = styled.button`
 
 
 
+export const HeroCointainer = styled.div`
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
 
+`;
 
 
 
@@ -222,9 +231,8 @@ export const Hero = styled.div`
     box-sizing: border-box;
     position: relative;
     max-width: 1200px;
-    color:#01BF71;
-    
-    background-color:black;
+    color: #01BF71;
+   
     width: 100%;
 
     @media screen and (max-width: 600px) {
@@ -260,6 +268,7 @@ export const HeroBlock = styled.div`
     z-index: 3;
     margin: auto;
     position:relative;
+    
 `;
 
 
@@ -321,6 +330,9 @@ ${props =>props.scroll && css`
     bottom:0;
     width: 100%;
     text-align:right; 
+    @media screen and (max-width: 600px) {
+        padding: 1rem;
+      }
 
 `}
     
